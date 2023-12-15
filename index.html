@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Projeto</title>
+</head>
+
+<body>
+    <header class="box-header">
+        <img src="logo.jpeg" alt="Logo com nome Mr.Pizza">
+        <nav id="home">
+            <ul class="box-nav">
+                <li><button><a href="#home">Home</a></button></li>
+                <li><button><a href="#sobre">Sobre</a></button></li>
+                <li><button><a href="#cardapio">Cardápio</a></button></li>
+                <li><button><a href="#contato">Contato</a></button></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="box-home">
+            <div id="text-home">
+                <h2>A melhor pizza da região, com um preço que
+                    <br> cabe no seu bolso. Venha conferir!
+                </h2>
+            </div>
+            <div id="giphy">
+                <table>
+                    <tr>
+                        <th>Cidade</th>
+                        <th>Possui entrega</th>
+                        <th>Valor da taxa</th>
+                    </tr>
+                    <tr>
+                        <td>Fortaleza</td>
+                        <td>Gratuita</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Caucaia</td>
+                        <td>Sim</td>
+                        <td>R$10,00.</td>
+                    </tr>
+                    <tr>
+                        <td>Eusébio</td>
+                        <td>Gratuita</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Maracanaú</td>
+                        <td>Sim</td>
+                        <td>R$15,00.</td>
+                    </tr>
+                </table>
+                <iframe src="https://giphy.com/embed/aApyjmMkwIcvmuKmMT"></iframe>
+
+            </div>
+        </section>
+
+        <section id="cardapio" class="box-cardapio">
+            <div class="cards-container">
+                <div class="card-1 flip-card">
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+                            <img src="./pizza1.png" alt="pizza">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h3>Pizza de Calabresa</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-2 flip-card">
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+                            <img src="./pizza1.png" alt="pizza">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h3>Pizza de Calamista</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-3 flip-card">
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+                            <img src="./pizza1.png" alt="pizza">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h3>Pizza de Carne</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-4 flip-card">
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+                            <img src="./pizza1.png" alt="pizza">
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h3>Pizza Mexicana</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="box-contato">
+            <h1>Faça seu pedido!</h1>
+
+            <div id="contato" class="box-form">
+                <form action="#">
+                   <label for="dados-pedido">Nome do cliente: </label><input type="text" placeholder="Digite seu nome aqui">
+                   <label for="dados-pedido">E-mail: </label><input type="email" placeholder="exemplo@gmail.com">
+                   <br><br>
+                   <label for="dados-pedido">Telefone: </label><input type="text" placeholder="Número para contato">
+                   <label for="dados">Endereço: </label><input type="text" placeholder="Rua...Nº..Bairro..Cidade">
+                   <br><br> 
+                   <button type="reset" class="bntform">Cancelar</button> 
+                   <button type="submit" class="bntform">Enviar Pedido</button>
+                </form>
+            </div>
+            <br>
+
+            <img src="./logo.jpeg" alt="">
+
+        </section>
+    </main>
+
+</body>
+
+</html>
