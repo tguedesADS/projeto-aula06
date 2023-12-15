@@ -224,3 +224,8 @@ body {
     border: #f19c3a 2px solid;
     transform: scale(1.1);
 }
+
+.box-contato img{
+    max-width: 120px;
+    border-radius: 10px;
+}
